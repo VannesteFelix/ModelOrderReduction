@@ -6,7 +6,7 @@ sofa_find_package(ModelOrderReduction REQUIRED)
 sofa_find_package(SofaTest REQUIRED)
 sofa_find_package(SofaSimulationGraph REQUIRED)
 
-find_package(Thread)
+find_package(Threads)
 
 set(SOURCE_FILES
     ModelOrderReduction_test.cpp
