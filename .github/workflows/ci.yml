@@ -112,6 +112,6 @@ jobs:
           tag_name: release-${{ github.ref_name }}
           fail_on_unmatched_files: true
           files: |
-            artifacts/SofaPython3_*_Linux.zip
-            artifacts/SofaPython3_*_Windows.zip
-            artifacts/SofaPython3_*_macOS.zip
+            artifacts/ModelOrderReduction_*_Linux.zip
+            artifacts/ModelOrderReduction_*_Windows.zip
+            artifacts/ModelOrderReduction_*_macOS.zip
