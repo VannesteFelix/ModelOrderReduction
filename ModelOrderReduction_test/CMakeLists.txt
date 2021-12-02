@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.12)
 project(ModelOrderReduction_test)
 
 sofa_find_package(ModelOrderReduction REQUIRED)
+sofa_find_package(SofaComponentAll REQUIRED)
 sofa_find_package(SofaTest REQUIRED)
 sofa_find_package(SofaSimulationGraph REQUIRED)
 
