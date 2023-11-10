@@ -105,14 +105,12 @@ find_file(SofaPython3Tools NAMES "SofaPython3/lib/cmake/SofaPython3/SofaPython3T
 if(SofaPython3Tools)
     message("-- Found SofaPython3Tools.")
     include(${SofaPython3Tools})
+    set(SP3_PYTHON_PACKAGES_DIRECTORY "python3/site-packages")
 else()
     # try again with the find_package mechanism
     find_package(SofaPython3 QUIET)
 endif()
 if(SofaPython3Tools OR SofaPython3_FOUND)
-    if(NOT SP3_PYTHON_PACKAGES_DIRECTORY)
-        set(SP3_PYTHON_PACKAGES_DIRECTORY "python3/site-packages")
-    endif()
     message("-- Python3 packages will be installed in: ${SP3_PYTHON_PACKAGES_DIRECTORY}.")
     SP3_add_python_package(
             SOURCE_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/python/mor
