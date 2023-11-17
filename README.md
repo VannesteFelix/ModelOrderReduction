@@ -1,3 +1,14 @@
+[![Documentation](https://img.shields.io/badge/doc-on_website-green.svg)](https://modelorderreduction.readthedocs.io/en/latest/index.html)
+[![Support](https://img.shields.io/badge/support-on_GitHub_Discussions-blue.svg)](https://github.com/sofa-framework/sofa/discussions)
+[![Gitter](https://img.shields.io/badge/chat-on_Gitter-ff69b4.svg)](https://app.gitter.im/#/room/#mor-sofa-plugin:gitter.im)
+
+[![CI](https://github.com/SofaDefrost/ModelOrderReduction/actions/workflows/ci.yml/badge.svg)](https://github.com/SofaDefrost/ModelOrderReduction/actions/workflows/ci.yml) :arrow_double_down:
+
+![ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Mac](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
+
+
 # ModelOrderReduction
 
 This Sofa package contains c++ components with python utilitaries allowing
@@ -19,34 +30,16 @@ where there are complete robot which are completely or partially reduced and tes
 
 ## Prerequisite
 
-- SOFA Plugin Dependencies
-
-	- [STLIB](https://github.com/SofaDefrost/STLIB)
-
-
-	- *optional:*
-
-	 	- [SoftRobots](https://github.com/SofaDefrost/SoftRobots)
-
-- Package dependencies
-
-	- [Python 2.7.X](https://www.python.org/downloads/)
-
-	- For the GUI (*optional*):
-
-		- [PyQt4](https://wiki.python.org/moin/PyQt)
-
-		- [yaml](https://pypi.org/project/PyYAML/)
-
-	- Sofa Launcher :
-
-		- [Cheetah](http://cheetahtemplate.org/)
-
-		```
-		export PYTHONPATH=/PathToYourSofaSrcFolder/tools/sofa-launcher
-		```
-
 More informations in **[requirement](https://modelorderreduction.readthedocs.io/en/latest/usage/install/requirement.html)** section of our doc
+
+## Stats
+
+![download](https://img.shields.io/github/downloads/SofaDefrost/ModelOrderReduction/total.svg)
+![forks](https://img.shields.io/github/forks/SofaDefrost/ModelOrderReduction.svg)
+![stars](https://img.shields.io/github/stars/SofaDefrost/ModelOrderReduction.svg)
+
+
+---
 
 Don't hesitate to give feedback/suggestion to us about your experience with the ModelOrderReduction Plugin:
 
